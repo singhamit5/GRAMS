@@ -76,7 +76,6 @@ unset($_SESSION['success']);
 			<a class="active w3-bar-item w3-button" href="profile.php" style="color:yellow;"><?php echo $_SESSION['name'];?><?php endif?> &nbsp;<img src="logo\user_logo.png"  width="27" height="27"/></a>
 			<a class="active w3-bar-item w3-button" href="login.php?logout='1'">Logout </a>			
 			<div class="search-container">
-
 				<form action="search2.php" method="post">
 					<button id="close-image" type="submit">
 						<img src="logo/search.png">
